@@ -1,0 +1,63 @@
+site_name: Java Reversing Wiki
+site_description: Hope you learn something :)
+site_author: Team CakeSlayers
+copyright: Copyright &copy; 2020 - 2021 CakeSlayers
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: white
+    accent: red
+    scheme: preference
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - search.suggest
+  - search.highlight
+  - search.share
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+plugins:
+- search
+- minify:
+    minify_html: true
+nav:
+- 开始:
+  - index.md
+- 基础篇:
+  - basic/00-before-we-start/before-we-start.md
+  - basic/01-JVM-Structure/01-JVM-Structure.md
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji ''
+      emoji_generator: !!python/name:materialx.emoji.to_svg ''
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format ''
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra_javascript:
+- https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+- https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML
