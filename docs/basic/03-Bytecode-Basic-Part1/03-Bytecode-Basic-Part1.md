@@ -4,10 +4,7 @@
 
 我们的Java逆向工程教程将会先从简单的由ASM库简化过的Java Bytecode入手。
 
-  
-
-  
-
+<br/>
 ## 一、初识数据结构-栈
 
 上一章我们知道了JVM的结构是栈，那么我们来简单了解一下栈这个数据结构。
@@ -18,8 +15,7 @@
 
 如图，栈就好像一个用来装土豆泥的木桶，先倒入（入栈）的土豆泥被后倒入（入栈）的压在下面，取（出栈）土豆泥时自然是从最上面往下取
 
-  
-
+<br/>
 ## 二、Bytecode基础（上）
 
 ### (1)方法结构：
@@ -28,6 +24,7 @@
 
 ![image-20210514205940477](image/ExampleVariableTable.png)
 
+<br/>
 #### 特殊方法：
 
 ##### 1.`<init>`方法：
@@ -41,10 +38,7 @@
    3. 调用任何现有对象的`clone()`方法
 4. 通过 `java.io.ObjectInputStream` 类的 `getObject()` 方法反序列化
 
-  
-
-  
-
+<br/>
 ##### 2.`<cinit>`方法:
 
 - **<cinit>方法** 的执行时期: **`类初始化阶段`**（在被jvm加载时执行，即在对象初始化阶段前）
@@ -52,10 +46,8 @@
 
 想具体了解参见：https://www.jianshu.com/p/8a14ed0ed1e9
 
-  
 
-  
-
+<br/>
 打开main方法：
 
 ```java
@@ -75,10 +67,7 @@ B:
 C:
 ```
 
-  
-
-  
-
+<br/>
 ### (2)变量（Variables）：
 
 #### 1.局部变量：
@@ -128,16 +117,12 @@ C:
 
 RETURN指令码自然是用于Void型方法的结束
 
-  
-
-  
-
+<br/>
 #### 2.字段Fields（成员变量Class Variables）:
 
 **注：HEAP堆是存放字段的地方**
 
-  
-
+<br/>
 ##### [1]静态字段：
 
 使用Recaf打开ExampleStaticField.class
@@ -159,10 +144,7 @@ RETURN
 
 ![](image/StaticField.png)
 
-  
-
-  
-
+<br/>
 ##### [2]实例字段：
 
 使用Recaf打开ExampleField.class
@@ -188,10 +170,7 @@ C:
 
 ![](image/Field.png)
 
-  
-
-  
-
+<br/>
 ##### [3]常量字段：
 
 ```java
