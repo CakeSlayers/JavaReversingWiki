@@ -4,17 +4,17 @@
 
 Recaf是一个开源Java字节码编辑器，Recaf大大降低了编辑Java字节码的难度。 诸如更新帧栈之类的困难任务都是自动完成的。 
 
+  
 
-
-
+  
 
 ## 2.下载Recaf
 
 https://github.com/Col-E/Recaf
 
+  
 
-
-
+  
 
 ## 3.配置Recaf：
 
@@ -22,17 +22,17 @@ https://github.com/Col-E/Recaf
 
 Class Mode改为Table，这样打开每个Class默认采用表格模式读取（只有表格模式可以进行Java字节码编辑)
 
+  
 
-
-
+  
 
 ![image-20210424170722970](image/Recaf Keybinds Config.png)
 
 修改保存修改的快捷键，随便你改啥，因为Ctrl+S有的时候会被其他应用程序占用TAT
 
+  
 
-
-
+  
 
 ![image-20210424171245403](image/Recaf Assemble cfg.png)
 
@@ -46,9 +46,9 @@ Class Mode改为Table，这样打开每个Class默认采用表格模式读取（
 
 临时切换反编译/表格/16进制码模式的方法如图
 
+  
 
-
-
+  
 
 ## 4.使用Recaf:
 

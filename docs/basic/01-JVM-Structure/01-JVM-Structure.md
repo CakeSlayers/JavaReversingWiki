@@ -8,9 +8,9 @@
 
 Java源代码被javac编译以后变成了Java字节码，然后放入JVM才能被JVM识别并运行![Java运行流程](第一章img/Java运行流程.png)
 
+  
 
-
-
+  
 
 ## 线程(Threads)：
 
@@ -20,9 +20,9 @@ Java的框架是并行的，这意味着不同的计算可以用多个线程在�
 
 主线程创建后，在static main(String[] args)中的代码就开始在主线程中运行。
 
+  
 
-
-
+  
 
 ## 帧栈(Stack/Stackframe)与帧(Frames)：
 
@@ -30,17 +30,17 @@ Java的框架是并行的，这意味着不同的计算可以用多个线程在�
 
 ![JVM结构](第一章img/JVM结构.png)
 
+  
 
-
-
+  
 
 ## 帧(Frames)的结构（之后细讲）：
 
 帧又称方法帧，用来处理每个方法里的内容。帧包含两个主要部分：局部变量表、操作栈
 
+  
 
-
-
+  
 
 引用&参考：https://www.overops.com/blog/jvm-architecture-101-get-to-know-your-virtual-machine/
 
