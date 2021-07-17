@@ -14,9 +14,9 @@
 
 
 
-## Material color palette 颜色主题
+##  颜色主题
 
-### Color Scheme 配色方案
+###  配色方案
 
 根据浏览器与系统设置自动切换明暗主题，也可手动切换
 <div class="tx-switch">
@@ -33,7 +33,7 @@
   })
 </script>
 
-### Primary colors 主色
+###  主色
 
 点击色块可更换主题的主色
 <div class="tx-switch">
@@ -68,7 +68,7 @@
   })
 </script>
 
-### Accent colors 辅助色
+###  辅助色
 
 点击色块更换主题的辅助色
 <div class="tx-switch">
