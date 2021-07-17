@@ -28,6 +28,8 @@ nav:
 - 基础篇:
   - basic/00-before-we-start/before-we-start.md
   - basic/01-JVM-Structure/01-JVM-Structure.md
+  - basic/02-Recaf-Setup/02-Recaf-Setup.md
+  - basic/03-Bytecode-Basic-Part1/03-Bytecode-Basic-Part1.md
 markdown_extensions:
   - admonition
   - codehilite:

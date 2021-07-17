@@ -1,12 +1,14 @@
-#### **本教程仅限在CakeSlayer组使用！**
+# 第三章--Java bytecode基本概念（上）
 
-#### **作者：CookieBOT**
-
-# TLDR
+## TLDR
 
 我们的Java逆向工程教程将会先从简单的由ASM库简化过的Java Bytecode入手。
 
-# 一、初识数据结构-栈
+
+
+
+
+## 一、初识数据结构-栈
 
 上一章我们知道了JVM的结构是栈，那么我们来简单了解一下栈这个数据结构。
 
@@ -18,17 +20,17 @@
 
 
 
-# 二、Java bytecode基本概念（上）
+## 二、Bytecode基础（上）
 
-## (1)方法结构：
+### (1)方法结构：
 
 使用Recaf打开ExampleVariable.class
 
 ![image-20210514205940477](image/ExampleVariableTable.png)
 
-### 特殊方法：
+#### 特殊方法：
 
-#### 1.`<init>`方法：
+##### 1.`<init>`方法：
 
 - `<init>`方法 的执行时期: **对象初始化阶段**
 
@@ -39,12 +41,20 @@
    3. 调用任何现有对象的`clone()`方法
 4. 通过 `java.io.ObjectInputStream` 类的 `getObject()` 方法反序列化
 
-#### 2.`<cinit>`方法:
+
+
+
+
+##### 2.`<cinit>`方法:
 
 - **<cinit>方法** 的执行时期: **`类初始化阶段`**（在被jvm加载时执行，即在对象初始化阶段前）
 - 作用：该方法负责为**静态成员变量/字段**赋予初始值
 
 想具体了解参见：https://www.jianshu.com/p/8a14ed0ed1e9
+
+
+
+
 
 打开main方法：
 
@@ -67,9 +77,11 @@ C:
 
 
 
-## (2)变量（Variables）：
 
-### 1.局部变量：
+
+### (2)变量（Variables）：
+
+#### 1.局部变量：
 
 局部变量的类型有：
 
@@ -120,15 +132,13 @@ RETURN指令码自然是用于Void型方法的结束
 
 
 
-### 2.字段Fields（成员变量Class Variables）:
+#### 2.字段Fields（成员变量Class Variables）:
 
 **注：HEAP堆是存放字段的地方**
 
 
 
-
-
-#### [1]静态字段：
+##### [1]静态字段：
 
 使用Recaf打开ExampleStaticField.class
 
@@ -153,7 +163,7 @@ RETURN
 
 
 
-#### [2]实例字段：
+##### [2]实例字段：
 
 使用Recaf打开ExampleField.class
 
@@ -182,7 +192,7 @@ C:
 
 
 
-#### [3]常量字段：
+##### [3]常量字段：
 
 ```java
 public class ExampleConstantField {
