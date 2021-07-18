@@ -1,11 +1,13 @@
-# 第三章--Java bytecode基本概念（上）
+# 第三章--Java Bytecode基本概念（上）
 
 ## TLDR
 
 我们的Java逆向工程教程将会先从简单的由ASM库简化过的Java Bytecode入手。
 
+Java Bytecode基础概念当然要先从“Bytecode如何实现Java的基础语句”中学
+
 <br/>
-## 一、初识数据结构-栈
+## 一、认识数据结构-栈
 
 上一章我们知道了JVM的结构是栈，那么我们来简单了解一下栈这个数据结构。
 
@@ -16,18 +18,18 @@
 如图，栈就好像一个用来装土豆泥的木桶，先倒入（入栈）的土豆泥被后倒入（入栈）的压在下面，取（出栈）土豆泥时自然是从最上面往下取
 <br/>
 
-## 二、Bytecode基础（上）
-
-### (1)方法结构：
+## 二、方法结构：
+!!! note "下载ExampleVariable.class"
+    [ExampleVariable.class](examples/ExampleVariable.class)
 
 使用Recaf打开ExampleVariable.class
 
 ![image-20210514205940477](image/ExampleVariableTable.png)
 
 <br/>
-#### 特殊方法：
+### 特殊方法：
 
-##### 1.`<init>`方法：
+#### 1.`<init>`方法：
 
 - `<init>`方法 的执行时期: **对象初始化阶段**
 
@@ -39,16 +41,14 @@
 4. 通过 `java.io.ObjectInputStream` 类的 `getObject()` 方法反序列化
 
 <br/>
-##### 2.`<cinit>`方法:
+#### 2.`<cinit>`方法:
 
 - **<cinit>方法** 的执行时期: **`类初始化阶段`**（在被jvm加载时执行，即在对象初始化阶段前）
 - 作用：该方法负责为**静态成员变量/字段**赋予初始值
 
 想具体了解参见：https://www.jianshu.com/p/8a14ed0ed1e9
 
-
-<br/>
-打开main方法：
+<br/>打开main方法：
 
 ```java
 DEFINE PUBLIC STATIC main([Ljava/lang/String; 0)V
@@ -68,9 +68,10 @@ C:
 ```
 
 <br/>
-### (2)变量（Variables）：
 
-#### 1.局部变量：
+## 三、变量（Variables）：
+
+### 1.局部变量：
 
 局部变量的类型有：
 
@@ -118,12 +119,17 @@ C:
 RETURN指令码自然是用于Void型方法的结束
 
 <br/>
-#### 2.字段Fields（成员变量Class Variables）:
+### 2.字段Fields（成员变量Class Variables）:
+
+字段即成员变量，在java中的概念可以自行百度
 
 **注：HEAP堆是存放字段的地方**
 
 <br/>
-##### [1]静态字段：
+#### [1]静态字段(Static Fields)：
+
+!!! note "下载ExampleStaticField.class"
+    [ExampleStaticField.class](examples/examplesExampleStaticField.class)
 
 使用Recaf打开ExampleStaticField.class
 
@@ -145,7 +151,10 @@ RETURN
 ![](image/StaticField.png)
 
 <br/>
-##### [2]实例字段：
+#### [2]实例字段(Fields)：
+
+!!! note "下载ExampleField.class"
+    [ExampleField.class](examples/ExampleField.class)
 
 使用Recaf打开ExampleField.class
 
@@ -171,7 +180,10 @@ C:
 ![](image/Field.png)
 
 <br/>
-##### [3]常量字段：
+#### [3]常量字段(Constant Fields)：
+
+!!! note "下载ExampleConstantField.class"
+    [ExampleConstantField.class](examples/ExampleConstantField.class)
 
 ```java
 public class ExampleConstantField {
