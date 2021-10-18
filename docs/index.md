@@ -10,7 +10,13 @@
 
 
 
-**特别感谢：[mrt4ntr4](https://github.com/mrT4ntr4/)**
+教程写的烂大佬轻喷
+
+
+
+**特别感谢：[mrt4ntr4](https://github.com/mrT4ntr4/)、[SIX](https://github.com/SpartanB312)、[小神](https://github.com/smallshen)、[KILLRED](https://github.com/KillSKID)、[James D Bloom](https://blog.jamesdbloom.com/)**
+
+
 
 
 
@@ -139,4 +145,3 @@ button[data-md-color-accent]:hover, button[data-md-color-primary]:hover {
     opacity: .75;
 }
 </style>
-
