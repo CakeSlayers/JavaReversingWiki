@@ -1,4 +1,4 @@
-# 第三章--Java Bytecode基本概念（上）
+# 第三章--Java Bytecode基本概念——栈、方法、字段与变量
 
 ## TLDR
 
@@ -11,7 +11,7 @@ Java Bytecode基础概念当然要先从“Bytecode如何实现Java的基础语�
 
 上一章我们知道了JVM的结构是栈，那么我们来简单了解一下栈这个数据结构。
 
-![](image/potato stack)
+![](image/potato stack.png)
 
 栈口诀：先进后出
 

@@ -1,5 +1,5 @@
 site_name: Java Reversing Wiki
-site_description: Hope you learn something :)
+site_description: KEEP LEARNING :)
 site_author: Team CakeSlayers
 copyright: Copyright &copy; 2020 - 2021 CakeSlayers
 theme:
@@ -30,6 +30,7 @@ nav:
   - basic/01-JVM-Structure/01-JVM-Structure.md
   - basic/02-Recaf-Setup/02-Recaf-Setup.md
   - basic/03-Bytecode-Basic-Part1/03-Bytecode-Basic-Part1.md
+  - basic/03-Bytecode-Basic-Part2/03-Bytecode-Basic-Part2.md
 markdown_extensions:
   - admonition
   - codehilite:
