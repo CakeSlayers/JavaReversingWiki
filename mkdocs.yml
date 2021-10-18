@@ -31,6 +31,8 @@ nav:
   - basic/02-Recaf-Setup/02-Recaf-Setup.md
   - basic/03-Bytecode-Basic-Part1/03-Bytecode-Basic-Part1.md
   - basic/03-Bytecode-Basic-Part2/03-Bytecode-Basic-Part2.md
+- 小企鹅Recaf大神教你一天内学会用Recaf来SKID:
+  - memes/蚌埠住了.md
 markdown_extensions:
   - admonition
   - codehilite:
