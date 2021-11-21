@@ -1,11 +1,9 @@
-# 小企鹅Recaf大神教你一天内学会用Recaf来SKID+破解VAPE V4
-# **一天内就能学会SO EZ**
-
-# **蚌埠住了**![L](L.png)
+# 小企鹅大神
+## **蚌埠住了**![L](L.png)
 
 
 
-## SKID教学：
+## SKID教学
 
 ![1](1.png)
 
@@ -27,7 +25,19 @@
 
 
 
-## 破解VAPE V4:
+## 破解VAPE V4
 
 ![VAPE V4 CRACKED BY SMALLPENGUIN](10.png)
+
+
+
+## 学KL(KOTLMAO)
+
+![SmallPenguin-wanna-learn-kotlmao](SmallPenguin-wanna-learn-kotlmao.png)
+
+
+
+## 30￥教你MIXIN
+
+![u-know-nothing-about-mixin](u-know-nothing-about-mixin.png)
 
