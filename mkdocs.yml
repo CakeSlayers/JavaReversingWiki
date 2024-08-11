@@ -31,6 +31,8 @@ nav:
   - basic/02-Recaf-Setup/02-Recaf-Setup.md
   - basic/03-Bytecode-Basic-Part1/03-Bytecode-Basic-Part1.md
   - basic/03-Bytecode-Basic-Part2/03-Bytecode-Basic-Part2.md
+- 字节码速查表:
+  - basic/FF-Bytecode-Lookup-List/FF-Bytecode-Lookup-List.md
 - 小企鹅大神:
   - memes/SmallPenguin-SKIDGod.md
 markdown_extensions:
