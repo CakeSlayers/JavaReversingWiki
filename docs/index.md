@@ -14,7 +14,7 @@
 
 
 
-**特别感谢：[mrt4ntr4](https://github.com/mrT4ntr4/)、[SIX](https://github.com/SpartanB312)、[小神](https://github.com/smallshen)、[KILLRED](https://github.com/KillSKID)、[James D Bloom](https://blog.jamesdbloom.com/)**
+**特别感谢：[mrt4ntr4](https://github.com/mrT4ntr4/)、[SIX](https://github.com/SpartanB312)、[MoeYinlo/西瓜](https://github.com/xiguajerry)、[小神](https://github.com/smallshen)、[KILLRED](https://github.com/KillSKID)、[James D Bloom](https://blog.jamesdbloom.com/)**
 
 
 
