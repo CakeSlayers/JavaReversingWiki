@@ -137,7 +137,7 @@
 |  short  |     S      |
 |   int   |     I      |
 |  long   |     J      |
-|  void   |     v      |
+|  void   |     V      |
 
 # Variable
 
