@@ -1,7 +1,7 @@
 site_name: Java Reversing Wiki
 site_description: KEEP LEARNING :)
 site_author: Team CakeSlayers
-copyright: Copyright &copy; 2020 - 2021 CakeSlayers
+copyright: Copyright &copy; 2020 - 2024 CakeSlayers
 theme:
   name: material
   language: zh
